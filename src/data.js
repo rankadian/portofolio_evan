@@ -21,9 +21,10 @@ import Tools12 from "/assets/tools/kotlin.png";
 import Tools13 from "/assets/tools/firebase.png";
 import Tools14 from "/assets/tools/html.png";
 import Tools15 from "/assets/tools/css.png";
-import Tools16 from "/assets/tools/php.png";
-import Tools17 from "/assets/tools/vite.png";
-import Tools18 from "/assets/tools/mysql.png";
+import Tools16 from "/assets/tools/ts.png";
+import Tools17 from "/assets/tools/php.png";
+import Tools18 from "/assets/tools/vite.png";
+import Tools19 from "/assets/tools/mysql.png";
 
 export const listTools = [
   {
@@ -133,20 +134,27 @@ export const listTools = [
   },
   {
     id: 16,
+    gambar: Tools16,
+    nama: "TypeScript",
+    ket: "Language",
+    dad: "1600",
+  },
+  {
+    id: 17,
     gambar: Tools17,
     nama: "PHP",
     ket: "Language",
     dad: "1700",
   },
   {
-    id: 17,
+    id: 18,
     gambar: Tools18,
     nama: "Vite",
     ket: "Framework",
     dad: "1800",
   },
   {
-    id: 18,
+    id: 19,
     gambar: Tools19,
     nama: "MySql",
     ket: "Framework",
