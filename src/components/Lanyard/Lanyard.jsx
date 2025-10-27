@@ -18,8 +18,8 @@ import {
 } from "@react-three/rapier";
 import { MeshLineGeometry, MeshLineMaterial } from "meshline";
 
-const cardGLB = "/portofolio/assets/CARD EVAN.glb";
-const lanyard = "/portofolio/assets/EDF.png";
+const cardGLB = "/assets/CARD EVAN.glb";
+const lanyard = "/assets/EDF.png";
 
 import * as THREE from "three";
 import "./Lanyard.css";
