@@ -162,21 +162,21 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.jpg";
-import Proyek2 from "/assets/proyek/proyek2.jpg";
-import Proyek3 from "/assets/proyek/proyek3.jpg";
-import Proyek4 from "/assets/proyek/proyek4.jpg";
-import Proyek5 from "/assets/proyek/proyek5.jpg";
-import Proyek6 from "/assets/proyek/proyek6.jpg";
+import Proyek1 from "/assets/proyek/evan/1.png";
+import Proyek2 from "/assets/proyek/evan/2.png";
+import Proyek3 from "/assets/proyek/evan/3.png";
+import Proyek4 from "/assets/proyek/evan/4.png";
+import Proyek5 from "/assets/proyek/evan/5.png";
+import Proyek6 from "/assets/proyek/evan/6.png";
 
 export const listProyek = [
   {
     id: 1,
     image: Proyek1,
-    title: "AIS Detection App",
-    subtitle: "A mobile application powered by Artificial Intelligence...",
+    title: "Bendorejo Village Information Website",
+    subtitle: "Website that displays information about Bendorejo village...",
     fullDescription:
-      "A mobile application powered by Artificial Intelligence and Machine Learning, developed to assist in the early detection of Adolescent Idiopathic Scoliosis (AIS). By analyzing patient data and patterns, the app provides predictions that can help doctors and patients take preventive measures. This project demonstrates the role of AI in modern healthcare by improving accuracy, accessibility, and efficiency in medical diagnosis.",
+      "A website that implements native methods, or in other words, a development approach that uses web technology to build applications that feel and function like native applications.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/rankadian",
@@ -185,11 +185,10 @@ export const listProyek = [
   {
     id: 2,
     image: Proyek2,
-    title: "IoT Air Quality Monitoring",
-    subtitle:
-      "A smart IoT system designed to measure and analyze air quality...",
+    title: "Website Point of Sale",
+    subtitle: "A website designed for point of sale use...",
     fullDescription:
-      "A smart IoT system designed to measure and analyze air quality using sensors connected to a mobile application. The app provides real-time updates on air quality levels, empowering users to make healthier lifestyle decisions based on environmental conditions. This project showcases the potential of IoT in addressing environmental and public health issues.",
+      "A website built using the Laravel framework and developed to record and facilitate point-of-sale activities. This project aims to streamline sales transactions, inventory management, and reporting for small to medium-sized businesses. The website features user-friendly interfaces for cashiers and administrators, ensuring efficient operation and accurate record-keeping.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/rankadian",
@@ -198,11 +197,11 @@ export const listProyek = [
   {
     id: 3,
     image: Proyek3,
-    title: "IoT Heartbeat Monitoring System",
+    title: "Website for Tracer Study Alumni",
     subtitle:
-      "An IoT-based healthcare project developed to measure and monitor...",
+      "A website used to track graduates from the information technology department of the Malang State Polytechnic...",
     fullDescription:
-      "An IoT-based healthcare project developed to measure and monitor heart rate in real-time. The system connects sensors to a local web server, enabling users and healthcare providers to track data directly from a web interface. This project highlights the integration of hardware and software to create efficient medical solutions that can be applied in local clinics or personal health monitoring.",
+      "A website that implements the Laravel framework using Tailwind for an attractive display and a little React for animations on the landing page. This website is used to track graduates or alumni from the information technology department of the Malang State Polytechnic to see whether they have found employment or not and to record the distribution range of alumni who have been accepted for employment.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/rankadian",
@@ -211,11 +210,11 @@ export const listProyek = [
   {
     id: 4,
     image: Proyek4,
-    title: "Personal Web Portfolio",
+    title: "SIBETA",
     subtitle:
-      "An interactive web portfolio showcasing my professional journey...",
+      "A website called SIBETA or SIstem BEbas TAnggungan used by final year students at the Malang State Polytechnic....",
     fullDescription:
-      "An interactive web portfolio showcasing my professional journey, skills, and projects. Designed with a clean yet modern aesthetic, the portfolio highlights my technical expertise in web development, software engineering, and IoT. The site also serves as a central hub for potential employers and collaborators to explore my works, reflecting both my creativity and technical precision.",
+      "A native website called SIBETA or SIstem BEbas TAnggungan is used for final year students at the Malang State Polytechnic. The main function of this website is to help coordinate all administrative and correspondence matters so that students can register to attend their graduation ceremony, provided they have no obligations to their study program, department, or campus.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/rankadian",
@@ -224,11 +223,11 @@ export const listProyek = [
   {
     id: 5,
     image: Proyek5,
-    title: "Color Blindness Detection App",
+    title: "Personal Web Portfolio",
     subtitle:
-      "A cross-platform application available on both mobile and desktop...",
+      "An interactive web portfolio showcasing my journey through my experiences in the IT field....",
     fullDescription:
-      "A cross-platform application available on both mobile and desktop, created to help identify different types of color blindness through color recognition tests. The app provides users with instant results, making it useful for educational, medical, and self-assessment purposes. Its intuitive design and accessibility aim to support individuals in understanding and managing color vision deficiencies.",
+      "An interactive web portfolio showcasing my journey in IT, skills, and projects. Designed with a clean yet modern aesthetic, this portfolio highlights my technical expertise in web development and software engineering. This site also serves as an information hub for potential employers and collaboration partners to explore my work, which reflects both my creativity and technical precision.",
     borderColor: "#3B82F6",
     gradient: "linear-gradient(145deg, #3B82F6, #000)",
     url: "https://github.com/rankadian",
@@ -237,11 +236,10 @@ export const listProyek = [
   {
     id: 6,
     image: Proyek6,
-    title: "Coffee Shop Website",
-    subtitle:
-      "A fully functional website designed for a coffee shop, enabling...",
+    title: "Application for Expense Tracking",
+    subtitle: "An application that can record user expenses...",
     fullDescription:
-      "A fully functional website designed for a coffee shop, enabling customers to explore the menu, learn about the shop’s story, and place orders online. The project focused on creating an attractive and modern interface, integrating responsive design for mobile and desktop, and ensuring smooth navigation for users. This website not only improved customer experience but also supported the coffee shop’s digital presence and business growth.",
+      "An application that uses the Flutter framework and Dart and Kotlin for its languages, this application has functions to track daily, monthly, or customizable time period expenses. The results of these records can be shared or downloaded in PDF and CSV formats, which can then be managed by users.",
     borderColor: "#10B981",
     gradient: "linear-gradient(180deg, #10B981, #000)",
     url: "https://github.com/rankadian",
